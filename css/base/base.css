@@ -1,0 +1,21 @@
+/* Browser Reset */
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  box-sizing: inherit;
+  padding: 0;
+}
+
+/* 1 rem = 10px */
+
+html {
+    font-size: 62.5%;
+}
+
+
+
+body {
+    font-family: 'Heebo', sans-serif;
+}
