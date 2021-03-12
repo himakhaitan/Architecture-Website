@@ -1,0 +1,56 @@
+/* Background Color Was given */
+#home {
+  padding: 2.8rem 3.7rem;
+  background-image: linear-gradient(
+    to right,
+    var(--color-grey) 0%,
+    var(--color-grey) 10%,
+    var(--color-white) 10%,
+    var(--color-white) 60%,
+    var(--color-primary) 60%,
+    var(--color-primary) 100%
+  );
+}
+
+/* Navigation Bar ::: Including logo CTA and NAV Opener */
+.navigation {
+  display: grid;
+  grid-template-columns: 1fr max-content;
+}
+.navigation__data {
+  display: grid;
+  grid-template-columns: 1fr max-content;
+  align-items: center;
+}
+.nav-phone {
+  font-size: 2rem;
+  padding: 0.4rem 2.5rem;
+  letter-spacing: 0.12rem;
+}
+
+/* Nav Opener */
+.nav-opener {
+  position: relative;
+  width: 3rem;
+  height: 2px;
+  background-color: var(--color-black);
+  display: inline-block;
+}
+.nav-opener::after,
+.nav-opener::before {
+  width: 1.5rem;
+  height: 2px;
+  background-color: var(--color-black);
+  display: inline-block;
+  content: "";
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  transition: all 0.2s;
+}
+.nav-opener::after {
+  bottom: 1.3rem;
+}
+.nav-opener::before {
+  top: 1.3rem;
+}
