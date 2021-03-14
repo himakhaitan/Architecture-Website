@@ -1,12 +1,12 @@
 /* Background Color Was given */
-#home {
+#hero {
   padding: 2.8rem 3.7rem;
   background-image: linear-gradient(
     to right,
     var(--color-grey) 0%,
     var(--color-grey) 10%,
-    var(--color-white) 10%,
-    var(--color-white) 60%,
+    var(--color-grey-light) 10%,
+    var(--color-grey-light) 60%,
     var(--color-primary) 60%,
     var(--color-primary) 100%
   );
@@ -54,3 +54,99 @@
 .nav-opener::before {
   top: 1.3rem;
 }
+
+/* Main HERO Content */
+
+.hero__main {
+  position: relative;
+  display: grid;
+  grid-template-columns:60% 1fr 2vw;
+  padding-bottom: 1rem;
+}
+
+.hero__primary {
+  margin: 0 5rem 0 12rem;
+}
+/* .hero__tertiary {
+  justify-content: center;
+} */
+
+.hero__text {
+  font-size: 7rem;
+  font-weight: 700;
+  line-height: 9.2rem;
+}
+.hero__text--orange {
+  color: var(--color-primary);
+}
+
+.hero__text--grey {
+  color: var(--color-grey);
+}
+
+.hero__img1{
+  width: 50rem;
+  margin-left: -10rem;
+  box-shadow: 0 2rem 4rem var(--shadow);
+}
+
+/* .hero__img2:hover {
+  animation: up-down 0.8s ease-out;
+} */
+
+.hero__img2{
+  height: 58rem;
+  margin-left: -5rem;
+  box-shadow: 0 2rem 4rem var(--shadow);
+}
+
+.hero__p{
+  color: var(--color-grey-dark);
+  font-size: 1.7rem;
+  font-weight: 300;
+  letter-spacing: 2px;
+}
+
+.hero__btn{
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color: var(--color-primary);
+  color: var(--color-white);
+  font-weight: 700;
+  padding: 1.2rem 2.5rem;
+  font-size: 1.5rem;
+}
+.vl {
+  border-left: 1.5px solid var(--color-black);
+  height: 80vh;
+}
+.tertiary__text {
+  font-size: 1.9rem;
+  font-weight: 500;
+  padding: 0rem 0 2rem 0 ;
+  margin-left: -2.5rem;
+  margin-top: -3rem;
+  letter-spacing: 4px;
+  text-transform: capitalize;
+}
+
+.tertiary__list {
+margin-left: -1rem;
+
+line-height: 2.3;
+}
+
+.list__item {
+font-size: 2rem;
+text-transform: uppercase;
+
+
+}
+
+/* WaterMark */
+.hero__watermark{
+  font-size: 10rem;
+  color: var(--color-grey);
+  font-family: 'Kumar One Outline', cursive;
+}
+

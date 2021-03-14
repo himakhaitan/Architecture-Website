@@ -1,6 +1,8 @@
 /* Importing Different CSS files */
 
 @import "./abstracts/variables.css";
+@import "./abstracts//annimations.css";
+@import "./abstracts/utils.css";
 
 @import "./base/base.css";
 
