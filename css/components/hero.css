@@ -60,6 +60,7 @@
 .hero__main {
   position: relative;
   display: grid;
+  z-index: 1;
   grid-template-columns:60% 1fr 2vw;
   padding-bottom: 1rem;
 }
@@ -87,6 +88,7 @@
 .hero__img1{
   width: 50rem;
   margin-left: -10rem;
+  z-index: 100;
   box-shadow: 0 2rem 4rem var(--shadow);
 }
 
@@ -145,8 +147,13 @@ text-transform: uppercase;
 
 /* WaterMark */
 .hero__watermark{
-  font-size: 10rem;
+  font-size: 8rem;
   color: var(--color-grey);
+  position: absolute;
+  opacity: 0.2;
+  top: 60%;
+  z-index: 0;
+  left: 10%;
   font-family: 'Kumar One Outline', cursive;
 }
 
