@@ -1,0 +1,14 @@
+.btn--primary {
+  background-color: var(--color-primary);
+}
+.btn {
+  text-transform: uppercase;
+  font-weight: 700;
+  padding: 1.2rem 2.5rem;
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: var(--color-white);
+}
+.btn--black {
+  background-color: var(--color-black-light);
+}

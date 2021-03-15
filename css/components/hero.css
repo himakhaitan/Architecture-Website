@@ -60,6 +60,7 @@
 .hero__main {
   position: relative;
   display: grid;
+  z-index: 1;
   grid-template-columns:60% 1fr 2vw;
   padding-bottom: 1rem;
 }
@@ -71,22 +72,12 @@
   justify-content: center;
 } */
 
-.hero__text {
-  font-size: 7rem;
-  font-weight: 700;
-  line-height: 9.2rem;
-}
-.hero__text--orange {
-  color: var(--color-primary);
-}
 
-.hero__text--grey {
-  color: var(--color-grey);
-}
 
 .hero__img1{
   width: 50rem;
   margin-left: -10rem;
+  z-index: 100;
   box-shadow: 0 2rem 4rem var(--shadow);
 }
 
@@ -99,23 +90,10 @@
   margin-left: -5rem;
   box-shadow: 0 2rem 4rem var(--shadow);
 }
-
-.hero__p{
-  color: var(--color-grey-dark);
-  font-size: 1.7rem;
-  font-weight: 300;
-  letter-spacing: 2px;
+.hero__p {
+  width: 90%;
 }
 
-.hero__btn{
-  text-transform: uppercase;
-  text-decoration: none;
-  background-color: var(--color-primary);
-  color: var(--color-white);
-  font-weight: 700;
-  padding: 1.2rem 2.5rem;
-  font-size: 1.5rem;
-}
 .vl {
   border-left: 1.5px solid var(--color-black);
   height: 80vh;
@@ -138,15 +116,19 @@ line-height: 2.3;
 
 .list__item {
 font-size: 2rem;
+color: var(--color-black);
 text-transform: uppercase;
-
-
 }
 
 /* WaterMark */
 .hero__watermark{
-  font-size: 10rem;
+  font-size: 8rem;
   color: var(--color-grey);
+  position: absolute;
+  opacity: 0.2;
+  top: 60%;
+  z-index: 0;
+  left: 10%;
   font-family: 'Kumar One Outline', cursive;
 }
 
