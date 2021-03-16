@@ -14,9 +14,10 @@ This front-end design was made by taking inspiration by PHLOX. Sole purpose of t
 
 ***
 
+>[Himanshu Khaitan](https://www.linkedin.com/in/himanshu-khaitan "Himanshu Khaitan")
+
 >[Rishita Shaw](https://www.linkedin.com/in/rishita-shaw-75901a186 "Rishita Shaw") 
 
->[Himanshu Khaitan](https://www.linkedin.com/in/himanshu-khaitan "Himanshu Khaitan")
 
 #### Design Inspiration
 
