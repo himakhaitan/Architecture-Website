@@ -21,6 +21,10 @@ p{
   color: var(--color-grey);
 }
 
+.text--white {
+  color: var(--color-white);
+}
+
 
 
 /* ******************************************************************* */
@@ -28,10 +32,15 @@ p{
 .text__small {
 position: relative;
 font-size: 1.5rem;
-color: var(--color-grey);
 text-transform: capitalize;
 letter-spacing: 1.4px;
 font-weight: 400;
+}
+.text__small--white {
+  color: var(--color-white);
+  }
+.text__small--grey {
+  color: var(--color-grey);
 }
 .text__box {
   font-size: 2.5rem;
