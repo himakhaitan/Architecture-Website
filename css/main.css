@@ -5,10 +5,12 @@
 @import "./abstracts/utils.css";
 
 @import "./base/base.css";
+@import "./base/line.css";
 @import "./base/typography.css";
 @import "./base//button.css";
 
 @import "./components/hero.css";
 @import "./components/about.css";
-
+@import "./components/testimonial.css";
 @import "./components/process.css";
+@import "./components/project.css";
