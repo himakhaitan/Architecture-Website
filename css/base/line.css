@@ -17,3 +17,18 @@
     height: 2px;
     background-color: var(--color-primary); 
   }
+
+  .line--dark {
+    width: 15rem;
+    height: 2px;
+    background-image: linear-gradient(
+      to right,
+      var(--color-white) 0%,
+      var(--color-white) 26%,
+      var(--color-grey) 26%,
+      var(--color-grey) 40%,
+      var(--color-primary) 40%,
+      var(--color-primary) 100%
+    );
+    margin: 3rem auto;
+  }
