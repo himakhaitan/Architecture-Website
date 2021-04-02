@@ -17,6 +17,11 @@
     height: 2px;
     background-color: var(--color-primary); 
   }
+  .line__large--grey {
+    width: 100%;
+    height: 2px;
+    background-color: var(--color-grey-dark); 
+  }
 
   .line--dark {
     width: 15rem;
