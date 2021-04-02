@@ -1,0 +1,7 @@
+#clients {
+    display: grid;
+    margin: 10rem 3rem 17rem;
+    grid-template-columns: repeat(6, 1fr);
+    align-items: center;
+    justify-items: center;
+}
