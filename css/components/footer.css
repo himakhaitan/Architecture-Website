@@ -15,6 +15,17 @@
     grid-template-columns: repeat(4, 1fr);
     justify-items: center;
 }
+@media only screen and (max-width: 56.25em) {
+    .footer__content {
+        grid-row-gap: 3rem;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .foo__cta {
+        align-items: center;
+        letter-spacing: 1.8px;
+        top: -20%;
+    }
+}
 
 .footer_elem {
     width: 80%;
