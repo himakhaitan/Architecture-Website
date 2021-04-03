@@ -79,15 +79,14 @@
   box-shadow: 0 2rem 4rem var(--shadow);
 }
 
-/* .hero__img2:hover {
-  animation: up-down 0.8s ease-out;
-} */
+
 
 .hero__img2 {
   height: 58rem;
   margin-left: -5rem;
   box-shadow: 0 2rem 4rem var(--shadow);
 }
+
 .hero__p {
   width: 90%;
 }
@@ -178,7 +177,7 @@
     height: 35vh;
   }
   .hero__img2 {
-    height: 70vh;
+    width: 100%;
     position: absolute;
     left: 0;
     /* bottom: -40%; */
