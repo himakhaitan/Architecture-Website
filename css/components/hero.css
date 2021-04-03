@@ -159,11 +159,12 @@
   }
   .hero__main {
     grid-template-columns: 1fr 8vw;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: max-content auto;
   }
   .hero__primary {
     grid-row: 2 /-1;
     margin: 0;
+    margin-top: 10rem;
     grid-column: 1/-1;
     background-color: var(--color-grey-light);
     padding: 15rem 5rem 10rem;
@@ -174,13 +175,14 @@
   }
   .vl {
     border-left: 1.5px solid var(--color-black);
-    height: 20vh;
+    height: 35vh;
   }
-  .hero__img2 {width: 95%;
-    height: auto;
+  .hero__img2 {
+    height: 70vh;
     position: absolute;
     left: 0;
-    bottom: -5%;
+    /* bottom: -40%; */
+    top: 10%;
     box-shadow: 0 2rem 4rem var(--shadow);
   }
   .hero__secondary {
@@ -188,6 +190,7 @@
   }
   .hero__img1 {
     margin-left: -3rem;
+    width: 40rem
   }
   .hero__p {
     margin-top: 4rem !important;
