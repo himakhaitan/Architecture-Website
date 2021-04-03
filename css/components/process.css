@@ -94,9 +94,9 @@
   }
   .process__watermark {
     font-size: 15rem;
-    top: -14%;
+    top: -5%;
     left: 5%;
-    line-height: 1;
+    line-height: 0.6;
   }
   .process__content > p {
     font-size: 2rem;
@@ -110,7 +110,7 @@
   .process__card {
     padding: 4rem;
     margin: 0;
-    width: 70%;
+    width: 80%;
     margin-bottom: 4rem;
   }
   .process__card > p {

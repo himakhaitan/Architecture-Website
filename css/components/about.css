@@ -88,5 +88,8 @@
     transform: translateX(-50%);
     padding: 3rem 2rem 3rem 5rem;
   }
+  .about__primary {
+    padding-right: 0rem;
+  }
 }
 
