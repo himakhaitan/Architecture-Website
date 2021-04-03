@@ -80,3 +80,42 @@
   z-index: -1;
   -webkit-text-stroke: 2px var(--color-primary);
 }
+
+@media only screen and (max-width: 56.25em) {
+  #process {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .process__img {
+    text-align: center;
+  }
+  .process__image {
+    width: 75%;
+  }
+  .process__watermark {
+    font-size: 15rem;
+    top: -14%;
+    left: 5%;
+    line-height: 1;
+  }
+  .process__content > p {
+    font-size: 2rem;
+  }
+  .process__cards {
+    margin-left: 0;
+    width: 100%;
+    grid-template-columns: 1fr;
+  }
+  .process__card {
+    padding: 4rem;
+    margin: 0;
+    margin-bottom: 4rem;
+  }
+  .process__card > p {
+    font-size: 2rem;
+  }
+  .process__content {
+    margin-left: 10rem;
+    margin-right: 10rem;
+  }
+}
