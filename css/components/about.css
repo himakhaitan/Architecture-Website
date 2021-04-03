@@ -5,6 +5,8 @@
   margin-bottom: 0;
 }
 
+
+
 .about__img {
   width: 100%;
 }
@@ -64,4 +66,25 @@
   padding-left: 1rem;
   color: var(--color-white);
   text-transform: capitalize;
+}
+
+@media only screen and (max-width: 56.25em) {
+  #about-us {
+    padding: 0 4rem;
+    grid-template-columns: repeat(1, 100%);
+  }
+  .about__para {
+    font-size: 1.8rem;
+    letter-spacing: 0.3rem;
+    line-height: 1.6;
+  }
+  .about--btn {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+  }
+  .about__video {
+    bottom: -10%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
 }
