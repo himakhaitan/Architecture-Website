@@ -176,13 +176,13 @@
     border-left: 1.5px solid var(--color-black);
     height: 20vh;
   }
-  /* .hero__img2 {width: 95%;
+  .hero__img2 {width: 95%;
     height: auto;
     position: absolute;
     left: 0;
     bottom: -5%;
     box-shadow: 0 2rem 4rem var(--shadow);
-  } */
+  }
   .hero__secondary {
     position: relative;
   }
