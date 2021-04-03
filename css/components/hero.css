@@ -163,7 +163,7 @@
   }
   .hero__primary {
     grid-row: 2 /-1;
-    margin: 0 0rem 0 5rem;
+    margin: 0;
     grid-column: 1/-1;
     background-color: var(--color-grey-light);
     padding: 15rem 5rem 10rem;
@@ -172,8 +172,8 @@
     border-left: 1.5px solid var(--color-black);
     height: 40vh;
   }
-  .hero__img2 {
-    height: 75vh;
+  .hero__img2 {width: 95%;
+    height: auto;
     position: absolute;
     left: 0;
     bottom: -5%;
