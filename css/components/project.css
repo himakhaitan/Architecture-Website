@@ -135,3 +135,35 @@
 text-align: center;
 margin-top: 14rem;
 }
+
+@media only screen and (max-width: 56.25em) {
+  .controller {
+    display: grid;
+    grid-template-columns:  repeat(2, min-content) 1fr;
+    grid-gap: 1rem;
+    margin-top: 5rem;
+  }
+  .slider {
+    padding: 0 10rem;
+    margin-top: 10rem;
+    display: grid;  
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .slider__info--even {
+    top: 50%;
+    right: 0%;
+    transform: translate(-50%, -50%);
+  }
+  .slider__info--odd {
+    bottom: auto;
+    top: 50%;
+    right: 0%;
+    transform: translate(-50%, -50%);
+  }
+  .slider__elem {
+    height: 50%;
+  }
+  .slider__btn {
+    text-align: center;
+    }
+}
