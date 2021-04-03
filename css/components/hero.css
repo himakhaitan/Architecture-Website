@@ -178,7 +178,7 @@
   }
   .hero__img2 {
     width: 96%;
-    height: 70vh;
+    height: 67vh;
     position: absolute;
     left: 0;
     /* bottom: -40%; */
@@ -195,5 +195,9 @@
   .hero__p {
     margin-top: 4rem !important;
     margin-bottom: 5rem;
+  }
+  .hero__watermark {
+    top: 50%;
+    left: 10%;
   }
 }
