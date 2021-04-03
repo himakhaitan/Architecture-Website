@@ -177,7 +177,8 @@
     height: 35vh;
   }
   .hero__img2 {
-    width: 100%;
+    width: 96%;
+    height: 70vh;
     position: absolute;
     left: 0;
     /* bottom: -40%; */
