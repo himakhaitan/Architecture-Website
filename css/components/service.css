@@ -13,6 +13,8 @@
   grid-template-columns: 1fr 30%;
 }
 
+
+
 .service__img {
   width: 100%;
 }
@@ -97,4 +99,24 @@ opacity: 0.4;
 .service--btn {
     text-align: center;
     margin-top: -2rem;
+}
+
+@media only screen and (max-width: 56.25em) {
+  .service__content {
+    display: grid;
+    grid-row-gap: 3rem;
+    grid-column-gap: 0;
+    grid-template-columns: 1fr;
+  }
+  .service__main {
+    margin-right: 0rem;
+    grid-row-gap: 5.2rem;
+  grid-column-gap: 5.2rem;
+  }
+  .service__img {
+    display: none;
+  }
+  .service--btn {
+    margin-top: 6rem;
+}
 }
