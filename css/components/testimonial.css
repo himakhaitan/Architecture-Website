@@ -60,3 +60,37 @@
     background-color: var(--color-white);
     box-shadow: 0 4rem 6rem rgba(0, 0, 0, 0.1);
 }
+
+@media only screen and (max-width: 56.25em) {
+    #testimonial {
+        display: grid;
+        grid-template-columns:  1fr;
+        margin: 14rem 4rem;   
+    }
+    .review {
+        width: 80%;
+        
+    }
+    .testimonial__main {
+        padding: 0 3rem;
+    }
+    .testimonial__secondary {
+        margin-top: 5rem;
+        justify-items: center;
+    }
+    .testimonial__secondary {
+        grid-template-columns: repeat(1, 1fr);
+       grid-row-gap: 4rem;
+    }   
+    .review__user {
+        display: grid;
+    
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .review__img {
+        justify-self: right;
+    }
+    .review__user > div {
+        align-self: center;
+    }
+}
