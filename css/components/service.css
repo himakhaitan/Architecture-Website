@@ -112,11 +112,21 @@ opacity: 0.4;
     margin-right: 0rem;
     grid-row-gap: 5.2rem;
   grid-column-gap: 5.2rem;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  justify-items: center;
   }
   .service__img {
     display: none;
   }
   .service--btn {
     margin-top: 6rem;
+}
+.service__main--ele {
+  width: 70%;
+}
+.circle {
+  top: 15%;
+  left: 10%;
 }
 }
