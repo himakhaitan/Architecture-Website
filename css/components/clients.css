@@ -13,4 +13,7 @@
         grid-column-gap: 3rem;
         grid-row-gap: 5rem;
     }
+    .clients--image {
+        width: 70%;
+    }
 }
